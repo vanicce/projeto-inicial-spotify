@@ -4,7 +4,7 @@
 
 <br>
 
-## LInk do Projeto:
+## LInk do Projeto: https://projeto-inicial-spotify.vercel.app/
 
 ## Imagem do projeto:
 

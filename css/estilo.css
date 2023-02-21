@@ -23,8 +23,8 @@ h3 {
 }
 
 body {
-    background: url(../imagens/capa.png),
-                url(../imagens/ruido.png),
+    background: url(../imgs/capa.png),
+                url(../imgs/ruido.png),
                 linear-gradient(50deg,#ff4169, #7c26f8);
     background-attachment: fixed ; 
     font-family: Helvetica, sans-serif;               
