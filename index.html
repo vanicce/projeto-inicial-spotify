@@ -57,12 +57,28 @@
     </header>
 
     <section class="d-flex" id="home">
-      <div class="container align-self-center capa">
+      <div class="container align-self-center ">
         <div class="row">
-          <div class="col-md-12">
-            <h1>Música para todos</h1>
-            <a class="btn btn-custom btn-lg btn-roxo" href="">Aproveite o Spotify Free</a>
-            <a class="btn btn-custom btn-lg btn-branco" href="">Obter Spotify Premium</a>
+          <div class="col-md-12 capa">
+            <div class="carousel slide" id="carousel-spotify" data-ride="carousel">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <h1>Música para todos</h1>
+                  <a class="btn btn-custom btn-lg btn-roxo" href="">Aproveite o Spotify Free</a>
+                  <a class="btn btn-custom btn-lg btn-branco" href="">Obter Spotify Premium</a>
+                </div>
+
+                <div class="carousel-item">
+                  <h1>As melhores rádios</h1>
+                  <a class="btn btn-custom btn-lg btn-branco" href=""><i class="fas fa-music"></i> Ouça agora</a>
+                </div> 
+
+              </div>
+              <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev"><i class="fas fa-angle-left fa-3x"></i></a>
+
+              <a href="#carousel-spotify" class="carousel-control-next" data-slide="next"><i class="fas fa-angle-right fa-3x"></i></a>
+            </div>
           </div>
         </div>
       </div>

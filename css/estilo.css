@@ -77,6 +77,10 @@ nav.navbar-transparente {
     color: black;
 }
 
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
 #servicos {
     background: white;
     padding: 20px 0px;
